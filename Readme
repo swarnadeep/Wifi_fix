@@ -1,0 +1,5 @@
+The python file wifi_reset.py checks whether internet is working (by pinging Google.com in this case, change as you see fit)
+and resets wifi if its not. This fixes the weird internet connectivity issue on the new Windows 10 update (1803 and up) on 
+intel and broadcom wifi chipsets
+
+The python code requires elevated (admin) rights, hence the easiest solution would be to run it through a batch (.bat) file (also as shown)
